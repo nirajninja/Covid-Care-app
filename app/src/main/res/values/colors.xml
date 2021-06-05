@@ -11,13 +11,18 @@
     <color name="dark_red">#FF1744</color>
     <color name="light_red">#E53935</color>
     <color name="white">#FFFFFF</color>
-
+    <color name="cyan">#04EFEF</color>
     <color name="dark_green">#00796B</color>
     <color name="dark_blue">#2979FF</color>
     <color name="dark_yellow">#FB8C00</color>
     <color name="dark_purple">#7B1FA2</color>
+    <color name="dark_p">#95F3FF</color>
+
     <color name="colorTextSecondary">#2979FF</color>
     <color name="dark_purple2">#311B92</color>
     <color name="dark_grey">#57534E</color>
 
-    </resources>
+    <color name="semiTransparentColor">#40FFFFFF</color>
+
+
+</resources>

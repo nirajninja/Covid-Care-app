@@ -35,7 +35,12 @@
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="56dp"
+
         app:menu="@menu/bottom_navigation_menu"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="#09D3EC"
+        app:itemRippleColor="@color/dark_blue"
+       android:background="@color/dark_grey"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@drawable/bg1"
-    android:layout_height="150dp"
-    android:layout_marginLeft="20dp"
-    android:layout_marginTop="20dp"
-    android:layout_marginRight="20dp"
+    android:layout_height="200dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:foreground="@color/semiTransparentColor"
 
-    android:foreground="@drawable/bg"
-    android:backgroundTint="@color/semiTransparentColor"
     android:padding="8dp">
 
     <ImageView
@@ -25,8 +24,7 @@
         android:id="@+id/tvSource"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:textSize="11sp"
+        android:layout_marginTop="16dp"
         android:text="SOURCE"
 
         android:textColor="@android:color/white"
@@ -37,16 +35,16 @@
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:ellipsize="end"
-    android:layout_marginLeft="8dp"
-        android:fontFamily="@font/roboto_thin"
         android:maxLines="3"
+
         android:text="TITLE"
         android:textColor="@android:color/white"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintLeft_toRightOf="@+id/ivArticleImage"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/ivArticleImage"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -54,9 +52,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="16dp"
         android:ellipsize="end"
-        android:maxLines="10"
+        android:maxLines="5"
         android:textSize="12sp"
 
         android:text="DESCRIPTION"
@@ -69,9 +67,8 @@
         android:id="@+id/tvPublishedAt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="8dp"
         android:text="PUBLISHED AT"
-        android:textSize="11sp"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvSource" />

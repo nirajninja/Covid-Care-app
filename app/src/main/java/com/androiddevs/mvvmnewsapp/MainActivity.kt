@@ -31,6 +31,10 @@ class MainActivity : AppCompatActivity() {
             val intent=Intent(this,symptomMain::class.java)
             startActivity(intent)
         }
+        info.setOnClickListener {
+            val intent=Intent(this,infoActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }

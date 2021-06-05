@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_p"
+    android:orientation="vertical"
+    tools:context=".infoActivity">
+
+    <TextView
+        android:layout_marginTop="20dp"
+
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textColor="@color/dark_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact info"
+
+
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="@color/dark_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Linkedin"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/dark_grey"
+        android:text="https://www.linkedin.com/in/niraj-gusain"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/dark_grey"
+        android:text="Github"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/dark_grey"
+        android:text="https://github.com/nirajninja"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/dark_grey"
+        android:text="Codechef"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/dark_grey"
+        android:layout_gravity="center"
+        android:text="https://www.codechef.com/users/niket12"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/dark_grey"
+        android:text="HackerRank"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/dark_grey"
+        android:text="https://www.hackerrank.com/nirajgusain5
+    "
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/dark_grey"
+        android:text="Email
+    "
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:textColor="@color/dark_grey"
+        android:text="nirajgusain5@gmail.com  "
+        />
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        android:textColor="@color/dark_grey"
+        android:text="Dev.to "
+        />
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+
+        android:textColor="@color/dark_grey"
+        android:text="https://dev.to/nirajninja "
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
